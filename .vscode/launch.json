@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "With REST client",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=NETWORK_CLIENT=rest",
+                "--dart-define-from-file=config.json"
+            ]
+        },
+        {
+            "name": "With GraphQL client",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=NETWORK_CLIENT=gql",
+                "--dart-define-from-file=config.json",
+            ]
+        },
+    ]
+}
