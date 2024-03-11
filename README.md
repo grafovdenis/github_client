@@ -29,7 +29,7 @@ Each module may contain `data`, `domain` and `screens` folders.
 
 ### Data
 
-Data layer contains data-specific models, repositories and clients, which interacts with the API or the platform interaction.
+Data layer contains data-specific models, repositories and clients, which interacts with the API or the platform.
 
 ### Domain
 
